@@ -278,7 +278,7 @@ def task_calendar():
         draw.text((25 + i*col_w, 88), h, font=font_small, fill=0)
     calendar.setfirstweekday(calendar.SUNDAY)
     cal = calendar.monthcalendar(y, m)
-    curr_y, row_h = 115, 38
+    curr_y, row_h = 115, 35
     for week in cal:
         for c, day in enumerate(week):
             if day != 0:
